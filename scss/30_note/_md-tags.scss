@@ -9,7 +9,7 @@
     line-height: var(--line-height-1);
     vertical-align: baseline;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     transition: var(--duration-superfast)
                 var(--motion-smooth);
 
@@ -78,7 +78,9 @@
         padding-left: 0;
         padding-right: 0.55em;
         border-left:none;
-
+        // &::before {
+        //     content: "#";
+        // }
         .theme-light & {
             border-right: 1px solid rgba(100, 100, 100, 0.3);
         }
